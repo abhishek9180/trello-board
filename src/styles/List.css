@@ -1,0 +1,44 @@
+.List {
+  background: #dfe3e6;
+  flex-shrink: 0;
+  width: 272px;
+  margin: 70px 10px 10px 10px;
+  margin-right: 0;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  position: relative;
+}
+
+.List-Title {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Lists-Cards {
+  height: 95%;
+  overflow: auto;
+}
+
+.Toggle-Add-Card {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Toggle-Add-Card > button {
+  all: unset;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
